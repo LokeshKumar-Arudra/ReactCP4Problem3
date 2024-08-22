@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffd569;
+  height: 100vh;
+  font-family: 'Roboto';
+  margin: 0px;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #ffffff;
+  margin: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 80vh;
+}
+
+.img {
+  height: 280px;
+  width: 310px;
+}
+
+.img-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px;
+}
+
+
+
+.common-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 10px;
+  height: 50px;
+  width: 120px;
+  font-size: 19px;
+  border: none;
+}
+
+.dynamic-text {
+  color: #ffd569;
+}
+
+@media (orientation: portrait) and (max-width: 576px) {
+  .img-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
