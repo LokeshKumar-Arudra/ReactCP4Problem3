@@ -35,8 +35,6 @@
   margin: 40px;
 }
 
-
-
 .common-img-container {
   display: flex;
   flex-direction: column;
@@ -58,11 +56,21 @@
   color: #ffd569;
 }
 
-@media (orientation: portrait) and (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .img-button-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .img {
+    height: 150px;
+    width: 190px;
+  }
+
+  .heading{
+    font-size: 20px;
+    padding: 20px;
   }
 }

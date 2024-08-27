@@ -19,7 +19,7 @@ class FruitsCounter extends Component {
     return (
       <div className="bg-container">
         <div className="container">
-          <h1>
+          <h1 className="heading">
             Bob ate <span className="dynamic-text">{mango}</span> Mangoes
             <span className="dynamic-text"> {banana}</span> bananas
           </h1>
